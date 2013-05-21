@@ -1,7 +1,9 @@
 {
     "name": "tomdavidson/phplib",
+    "type": "library",
     "description": "Library of useful (mostly) stand-alone php components.",
     "keywords": ["phplib", "TomDavidson"],
+    "homepage": "https://github.com/Tom-Davidson/phplib",
     "license": "MIT",
     "authors": [
         {
@@ -9,9 +11,13 @@
             "homepage": "https://github.com/Tom-Davidson/"
         }
     ],
+    "require": {
+        "php": ">=5.3.0",
+        "psr/log": "dev-master"
+    },
     "autoload": {
-        "phplib": {
-            "TomDavidson\\Components\\": ""
+        "psr-0": {
+            "TomDavidson\\Components": "Components/"
         }
     }
 }
