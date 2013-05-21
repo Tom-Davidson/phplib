@@ -1,5 +1,5 @@
 {
-    "name": "TomDavidson/phplib",
+    "name": "tomdavidson/phplib",
     "description": "Library of useful (mostly) stand-alone php components.",
     "keywords": ["phplib", "TomDavidson"],
     "license": "MIT",
