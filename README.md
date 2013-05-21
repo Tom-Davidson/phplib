@@ -18,3 +18,6 @@ To Use:
     "me/my-repo": "*"
 ...
 }
+
+You might also need to add:
+	"minimum-stability": "dev"
