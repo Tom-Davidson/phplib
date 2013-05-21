@@ -1,4 +1,20 @@
 phplib
 ======
 
-LIbrary of useful (mostly) stand-alone php components.
+Library of useful (mostly) stand-alone php components.
+
+To Use:
+======
+"repositories": [
+...
+    {
+        "type": "git",
+        "url":  "git@github.com:me/my-repo.git"
+    }
+...
+],
+"require": {
+...
+    "me/my-repo": "*"
+...
+}
