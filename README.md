@@ -9,15 +9,12 @@ To Use:
 ...
     {
         "type": "git",
-        "url":  "git@github.com:me/my-repo.git"
+        "url":  "https://github.com/Tom-Davidson/phplib.git"
     }
 ...
 ],
 "require": {
 ...
-    "me/my-repo": "*"
+    "tomdavidson/phplib": "master@dev"
 ...
 }
-
-You might also need to add:
-	"minimum-stability": "dev"
