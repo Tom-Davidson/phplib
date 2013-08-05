@@ -56,7 +56,11 @@ abstract class Logger implements \Psr\Log\LoggerInterface
 				echo $level.': '.$message."\n";
 			break;
 			default:
-				fwrite(STDERR, $level.': '.$message."\n");
+				if(php_sapi_name() === 'cli'){
+					fwrite(STDERR, $level.': '.$message."\n");
+				}else{
+					error_log($level.': '.$message."\n");
+				}
 			break;
 		}
 	}
